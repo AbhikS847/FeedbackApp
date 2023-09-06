@@ -52,6 +52,7 @@ const Feedbackform = () => {
                 addFeedback(newFeedback);   
             }
             setText('');
+            feedbackEdit.edit = false;
         }
     }
 
